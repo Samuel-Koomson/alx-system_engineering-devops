@@ -1,0 +1,2 @@
+#!/bin/bash
+mklink /bin/ls __ls__
