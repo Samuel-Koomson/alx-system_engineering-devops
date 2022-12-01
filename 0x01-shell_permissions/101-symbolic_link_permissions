@@ -1,2 +1,2 @@
 #!/bin/bash
-ln --symbolic chgrp vincent staff hello
+chgrp -h staff _hello | chown -h vincent _hello
