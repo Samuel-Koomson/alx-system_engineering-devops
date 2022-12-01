@@ -1,2 +1,2 @@
 #!/bin/bash
-ln --symbolic chmod vincent staff hello
+ln --symbolic chgrp vincent staff hello
