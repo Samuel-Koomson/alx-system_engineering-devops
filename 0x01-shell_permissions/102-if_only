@@ -1,2 +1,2 @@
 #!/bin/bash
-chgrp betty hello guillaume
+chown betty hello if [( hello) -eq guillaume
