@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Script which displays active IPV4 IPs on a machine
+
+hostname -I
