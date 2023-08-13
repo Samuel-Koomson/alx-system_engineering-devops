@@ -1,5 +1,7 @@
 POST MORTEM
 
+![Alt text](https://i.pinimg.com/736x/70/85/20/708520d02c57e89488edca18ad6545fc--network-cable-tech-humor.jpg)
+
 Summary
 On August 11, 2023 between the hours of 14:05 GMT to 14:23 GMT, requests to https://samuelkoomson.com had issues leading to a “Failure to connect to 0 port 80”. The ripple effect was that applications that relied on these servers returned errors and had their performance reduced.
 The root cause of the issue stemmed from an invalid Nginx web server configuration and this completely affected traffic to and from the server.
